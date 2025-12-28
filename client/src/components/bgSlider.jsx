@@ -12,7 +12,7 @@ const BgSlider = () => {
 
 
   return (
-    <div>
+    <div className='pb-10 md:py-20 mx-2'>
        {/* title text here  */}
        <h1 className='mb-12 sm:mb-20 text-center text-2xl md:text-3xl lg:text-4xl mt-1 font-semibold bg-linear-to-r from-gray-900 to-gray-500 bg-clip-text text-transparent'>Remove Background With High <br /> Quality and Accuracy </h1>
 
