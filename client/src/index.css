@@ -1,2 +1,9 @@
 @import "tailwindcss";
 
+.slider {
+        -webkit-appearance: none;
+        height: 100%;
+        background: transparent;
+}
+
+ 

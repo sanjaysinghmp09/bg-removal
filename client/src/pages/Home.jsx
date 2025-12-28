@@ -1,11 +1,13 @@
 import Header from '../components/Header'
 import Steps from '../components/Steps'
+import BgSlider from '../components/BgSlider'
 
-function Home() {
+const Home = () => {
   return (
     <>
       <Header />
       <Steps />
+      <BgSlider />
     </>
   )
 }
