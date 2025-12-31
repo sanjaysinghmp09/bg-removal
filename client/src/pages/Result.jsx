@@ -4,7 +4,7 @@ import { assets } from '../assets/assets'
 function Result() {
   return (
     <div className='mx-4 my-3 lg:mx-44 mt-14 min-h-[75vh]'>
-      <div>
+      <div className='bg-white rounded-lg px-8 py-6 drop-shadow-sm'>
         {/* ..........Image Container.......... */}
         <div>
           {/* Left sidwe image container */}
