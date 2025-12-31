@@ -16,7 +16,7 @@ function Result() {
 
           {/* Right side image container */}
           <div>
-            <p>Edited</p>
+            <p>Background Removed</p>
             <img src={assets.image_wo_bg} alt="" />
           </div>
         </div>
