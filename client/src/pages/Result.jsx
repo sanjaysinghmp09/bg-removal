@@ -15,7 +15,7 @@ function Result() {
           </div>
 
           {/* Right side image container */}
-          <div>
+          <div className='flex flex-col'>
             <p>Background Removed</p>
             <img src={assets.image_wo_bg} alt="" />
           </div>
