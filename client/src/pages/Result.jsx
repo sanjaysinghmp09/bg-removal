@@ -33,8 +33,8 @@ function Result() {
           {/* .............Button...... */}
 
           <div className='flex justify-center sm:justify-end items-center flex-wrap gap-4 mt-6'>
-            <button className='px-8 py-2.5 text-sm text-violet-600 border border-violet-600 rounded-full hover:scale-105 transition-all duration-700 '>Try another image</button>
-            <a className='px-8 py-2.5 text-white text-sm ' href="">Download Image</a>
+            <button className='px-8 py-2.5 text-sm text-violet-600 border border-violet-600 rounded-full hover:scale-105 transition-all duration-700 cursor-pointer '>Try another image</button>
+            <a className='px-8 py-2.5 text-white text-sm bg-linear-to-r from-violet-600 to-fuchsia-500 rounded-full hover:scale-105 transition-all duration-500' href="">Download Image</a>
           </div>
 
           </div>
