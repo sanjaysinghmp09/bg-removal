@@ -14,7 +14,7 @@ function BuyCredit() {
             <p className='text-sm
             '>{item.desc}</p>
             <p className='mt-6'><span className='text-3xl font-medium'>${item.price}</span>/ {item.credits} credits</p>
-            <button className='w-full bg-gray-800 text-white mt-8 text-sm rounded-md py-2.5 min-w-52'>Buy Now</button>
+            <button className='w-full bg-gray-800 text-white mt-8 text-sm rounded-md py-2.5 min-w-52 cursor-pointer'>Buy Now</button>
 
           </div>
         ))}
