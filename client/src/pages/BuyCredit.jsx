@@ -2,7 +2,9 @@ import React from 'react'
 
 function BuyCredit() {
   return (
-    <div>BuyCredit</div>
+    <div className='min-h-[80vh] flex items-center pt-14 mb-10'>
+      
+    </div>
   )
 }
 

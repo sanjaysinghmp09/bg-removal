@@ -5,7 +5,7 @@ function Upload() {
   return (
     <div className="pb-16">
       {/* Title */}
-      <h1 className="text-center text-2xl md:text-3xl lg:text-4xl mt-1 font-semibold bg-linear-to-r from-gray-900 to-gray-500 bg-clip-text text-transparent py-6 md:py-15">
+      <h1 className="text-center text-2xl md:text-3xl lg:text-4xl mt-1 font-semibold bg-linear-to-r from-gray-900 to-gray-500 bg-clip-text text-transparent py-6 md:py-8">
         See the magic. Try now
       </h1>
       <div className="text-center mb-24">
