@@ -9,11 +9,43 @@ const clerkWebhooks = async(req , res) => {
         // create a svix instance with clerk webhook secret
         const whook = new Webhook(process.env.CLERK_WEBHOOK_SECRET)
 
-        await whook.verify(JSON.stringify(req.body){
-            "svix-id" :req.headers
+        await whook.verify(JSON.stringify(req.body),{
+            "svix-id" :req.headers["svix-id"],
+            "svix-timestamp":req.headers["svix-timestamp"],
+            "svix-signature":req.hearders["svix-signature"]
+
         })
 
-    } catch(error){
+        const {data , type} = req.body
 
+        switch (type) {
+            case "user.created":
+                {
+                    const userData = {
+                        clerkId : data.id ,
+                        email: data.email_addresses[0].email_address,
+                        firstName: data.first_name,
+                        lastName: data.last_name,
+                        photo: data.image_url
+
+                    }
+                    break;
+                }
+            case "user.updated":
+                {
+                    break;
+                }
+            case "user.deleted":
+                {
+                    break;
+                }
+        
+            default:
+                break;
+        }
+
+    } catch(error){
+        console.log(error.message)
+        res.JSON({success:false,message:error.message})
     }
 }
