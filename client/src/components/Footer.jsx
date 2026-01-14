@@ -1,6 +1,8 @@
 import React from 'react'
 import { assets } from '../assets/assets'
 
+// footer section
+
 const Footer = () => {
   return (
     <div className='flex items-center justify-between gap-4 px-4 lg:px-44 py-3'>
