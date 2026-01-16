@@ -45,6 +45,9 @@ const clerkWebhooks = async (req, res) => {
 
       }
       case "user.deleted": {
+
+        await userModel.findOneAndDelete({clerkId:data.id})
+        res.JSON({})
         break;
       }
 
