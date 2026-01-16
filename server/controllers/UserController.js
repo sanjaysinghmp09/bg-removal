@@ -59,3 +59,5 @@ const clerkWebhooks = async (req, res) => {
     res.JSON({ success: false, message: error.message });
   }
 };
+
+export{clerkWebhooks}
