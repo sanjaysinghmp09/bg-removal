@@ -2,7 +2,7 @@ import { Webhook } from "svix";
 import userModel from "../models/userModel.js";
 
 
-// API Controller Function to Manage Clerk User with database
+// API Controller Function to Manage Clerk User with database mongoDB string not working
 // http://localhost:4000/api/user/webhooks
 
 
