@@ -1,6 +1,6 @@
 # AI Background Removal SaaS Website  
 
-A Full Stack AI-powered SaaS website that allows users to upload images, remove backgrounds using AI, and download the results with a transparent background.  
+A Full Stack AI-powered SaaS website that allows users to upload images, remove backgrounds using AI, and download the results with a transparent background. error handle  
 
 ## 🌟 Features 
 - **Background Removal**: AI-powered image processing for seamless background removal.  
