@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
 
-// Middleware funciton to decode jwt token to clerkId
+// Middleware funciton to decode jwt token to clerkId issue in codebase
 const authUser = async (req, res, next) => {
   try {
     const { token } = req.headers;
